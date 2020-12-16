@@ -7,7 +7,7 @@ Array.prototype.random = function(x){
   let final  = [];
   let totalRand =  
     this.sort(_=>{
-        Math.random -0.5
+        return Math.random() -0.5
     })
     for (let i =0; i<=totalRand.length/x; i++){
       final.push(totalRand.splice(0, x))
